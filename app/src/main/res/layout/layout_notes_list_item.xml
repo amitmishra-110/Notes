@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkYellow"
+    android:weightSum="100"
+    android:gravity="center_vertical">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/darkGrey"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/note_title"
+        android:text="This is my first note"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:lines="1"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        />
+
+    <TextView
+        android:id="@+id/note_timestamp"
+        android:text="12jan2019"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        />
+
+</LinearLayout>
